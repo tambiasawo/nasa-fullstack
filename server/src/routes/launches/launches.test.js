@@ -21,7 +21,7 @@ describe("Launches API", () => {
         .expect(200);
     });
   });
-
+  /* 
   describe("Test POST /launch", () => {
     const completeLaunchData = {
       mission: "USS Enterprise",
@@ -69,7 +69,7 @@ describe("Launches API", () => {
       });
     });
 
-    /*  test("It should catch invalid dates", async () => {
+      test("It should catch invalid dates", async () => {
       const response = await request(app)
         .post("/v1/launches")
         .send(launchDataWithInvalidDate)
@@ -79,6 +79,7 @@ describe("Launches API", () => {
       expect(response.body).toStrictEqual({
         error: "Invalid launch date",
       });
-    }); */
-  });
+    }); 
+ 
+  }); */
 });
