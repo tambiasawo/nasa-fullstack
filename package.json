@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm test --prefix server",
+    "test": "npm test --prefix server && npm test --prefix client ",
     "server": "npm run watch --prefix server",
     "client": "npm run start --prefix client",
     "watch": "npm run server & npm run client",
